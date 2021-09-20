@@ -25,6 +25,8 @@ superuser: true
 title: Sarah Johnson
 ---
 
-Sarah Johnson is a recent graduate from the University of Memphis for urban planning. Her research interests include housing quality and affordability, and her final capstone was titled "Addressing Neglect in the Private Rental Market." She is also interested in data management and research, particularly using R and other open-source resources.
+Sarah Johnson is a recent graduate from the University of Memphis for urban planning. Her research interests include housing quality and affordability, and her final capstone was titled "Addressing Neglect in the Private Rental Market." 
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+She is also interested in data management and research, particularly using R and other open-source resources.
+
+<!--#  {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
