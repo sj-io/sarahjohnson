@@ -3,7 +3,7 @@ title: Welcome to my website
 author: Sarah Johnson
 date: '2021-09-19'
 slug: welcome-to-my-website
-categories: []
+categories: ["r markdown", "blogdown"]
 tags: []
 subtitle: ''
 summary: ''
@@ -16,3 +16,15 @@ image:
   preview_only: no
 projects: []
 ---
+
+Hello! Welcome to my personal website. I started and finished it today, at least a basic working version. Aside from annual domain name costs, this site was built entirely for free with open source programs. I did not go to school for coding and I've found the learning curve steep, but there's great resources out there which keep your programming time to a minimum.
+
+I outline the main tools I used below. If you have minimal coding experience, I feel for you, the number of moving parts can get overwhelming. If I wasn't in a field with a lot of data analysis, I would probably save my time and pay for a service like Squarespace. A similar content management system, [Ghost](https://ghost.org/), is available for free if you're willing to host it yourself ([made easy](https://ghost.org/docs/install/digitalocean/) by paying \$5 a month to serve it using DigitalOcean). It was nice to write posts on my iPad and save drafts in the cloud, but I knew I wanted to work with RStudio and use a free hosting option.
+
+To create this website I used [blogdown](https://bookdown.org/yihui/blogdown/), an R package that builds a website using R Markdown and Hugo. [The repository is available on Github](https://github.com/sj-io/sarahjohnson) and it is hosted for free using [Netlify](https://www.netlify.com/). I'm currently using the Academic theme created by [Wowchemy](https://wowchemy.com/). [This blog post by Alison Hill](https://www.apreshill.com/blog/2020-12-new-year-new-blogdown/) helped get this site off the ground.[^1]
+
+[^1]: Since the post was originally created, the version of blogdown mentioned has moved from development to production (and then surpassed). Under Step 3 \#1, just enter `install.packages("blogdown")`, ignoring stuff about remotes.
+
+I chose blogdown because I enjoy working in [RStudio](https://www.rstudio.com/) for writing and data research and using Git to track changes and development. [My master's capstone](https://github.com/sj-io/MA-capstone) was completed using bookdown, another R package that uses R Markdown to build websites. I kept track of citations using [Zotero](https://www.zotero.org/), which is [seamlessly integrated](https://rstudio.github.io/visual-markdown-editing/citations.html) into RStudio. The [tidycensus](https://walker-data.com/tidycensus/) package allowed me to quickly pull data directly from the Census Bureau, rather than using data.census.gov to download files to my computer. I created reproducible tables and graphs using R code chunks, no Excel or manual data entry needed. Other R packages like leaflet made interactive maps easy to load.
+
+I look forward to learning how to develop and customize this website even more. Stay tuned!
